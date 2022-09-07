@@ -1,6 +1,6 @@
 # Container image that runs your code
-FROM openjdk:latest
-    
+FROM digital-factory-docker.bnc.ca/ca.bnc.sbip/openjdk:latest
+
 #RUN yum install curl
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
